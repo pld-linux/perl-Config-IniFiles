@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	IniFiles
-%include	/usr/lib/rpm/macros.perl
 Summary:	Config-IniFiles perl module
 Summary(pl):	Modu³ perla Config-IniFiles
 Name:		perl-Config-IniFiles
 Version:	2.21
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ files.
 Config::IniFiles - - modu³ do czytania plików configuracyjnych .ini.
 
 %prep
-%setup -q -n Config-IniFiles-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
