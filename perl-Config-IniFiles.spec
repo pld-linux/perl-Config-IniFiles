@@ -20,6 +20,7 @@ Config::IniFiles - A module for reading .ini-style configuration
 files.
 
 %description -l pl
+Config::IniFiles - - modu³ do czytania plików configuracyjnych .ini.
 
 %prep
 %setup -q -n Config-IniFiles-%{version}
