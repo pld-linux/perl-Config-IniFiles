@@ -4,7 +4,7 @@
 Summary:	Config::IniFiles perl module
 Summary(pl):	Modu³ perla Config::IniFiles
 Name:		perl-Config-IniFiles
-Version:	2.27
+Version:	2.29
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
