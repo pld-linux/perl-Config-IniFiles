@@ -9,7 +9,8 @@ Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	Config-IniFiles-%{version}.tar.gz
-Source1:	Config-IniFiles-%{version}.readme
+# this is not needed, and i dont know for what i put that in spec
+#Source1:	Config-IniFiles-%{version}.readme 
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 %requires_eq	perl
 Requires:	%{perl_sitearch}
