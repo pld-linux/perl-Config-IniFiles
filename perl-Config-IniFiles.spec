@@ -8,12 +8,12 @@
 Summary:	Config::IniFiles Perl module
 Summary(pl):	Modu³ Perla Config::IniFiles
 Name:		perl-Config-IniFiles
-Version:	2.37
-Release:	2
+Version:	2.38
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b6a15ef97444df8485ce95f583bd6aa2
+# Source0-md5:	17e39e4244ede0061939dcb80ab6294e
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
