@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	IniFiles
-Summary:	Config-IniFiles perl module
-Summary(pl):	Modu³ perla Config-IniFiles
+Summary:	Config::IniFiles perl module
+Summary(pl):	Modu³ perla Config::IniFiles
 Name:		perl-Config-IniFiles
 Version:	2.21
 Release:	3
