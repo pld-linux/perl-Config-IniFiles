@@ -1,10 +1,14 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	IniFiles
-Summary:	Config::IniFiles perl module
-Summary(pl):	Modu³ perla Config::IniFiles
+Summary:	Config::IniFiles Perl module
+Summary(pl):	Modu³ Perla Config::IniFiles
 Name:		perl-Config-IniFiles
-Version:	2.29
+Version:	2.30
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -27,6 +31,7 @@ Config::IniFiles - modu³ do czytania plików configuracyjnych .ini.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
