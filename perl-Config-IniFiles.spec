@@ -4,8 +4,8 @@
 Summary:	Config::IniFiles perl module
 Summary(pl):	Modu³ perla Config::IniFiles
 Name:		perl-Config-IniFiles
-Version:	2.21
-Release:	3
+Version:	2.27
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -41,4 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.gz
+%{_mandir}/man3/*
 %{perl_sitelib}/Config/IniFiles.pm
