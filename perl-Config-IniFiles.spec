@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Config
-%define	pnam	IniFiles
+%define		pdir	Config
+%define		pnam	IniFiles
 Summary:	Config::IniFiles - a module for reading .ini-style configuration files
 Summary(pl):	Config::IniFiles - modu³ do odczytu plików konfiguracyjnych typu .ini
 Name:		perl-Config-IniFiles
