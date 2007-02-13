@@ -6,7 +6,7 @@
 %define		pdir	Config
 %define		pnam	IniFiles
 Summary:	Config::IniFiles - a module for reading .ini-style configuration files
-Summary(pl.UTF-8):   Config::IniFiles - moduł do odczytu plików konfiguracyjnych typu .ini
+Summary(pl.UTF-8):	Config::IniFiles - moduł do odczytu plików konfiguracyjnych typu .ini
 Name:		perl-Config-IniFiles
 Version:	2.38
 Release:	2
