@@ -8,13 +8,13 @@
 Summary:	Config::IniFiles - a module for reading .ini-style configuration files
 Summary(pl.UTF-8):	Config::IniFiles - moduł do odczytu plików konfiguracyjnych typu .ini
 Name:		perl-Config-IniFiles
-Version:	2.52
+Version:	2.53
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9a06ffea57d6b08f646f8ffb3014863d
+# Source0-md5:	e6252a2fbad47afaf0a082ee808c4873
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
