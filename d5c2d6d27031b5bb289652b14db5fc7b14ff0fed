@@ -1,0 +1,3 @@
+- release 1,
+- removed .packlist from %%files,
+- adapterized and added full url in Source.
