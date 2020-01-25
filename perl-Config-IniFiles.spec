@@ -4,7 +4,6 @@
 
 %define		pdir	Config
 %define		pnam	IniFiles
-%include	/usr/lib/rpm/macros.perl
 Summary:	Config::IniFiles - a module for reading .ini-style configuration files
 Summary(pl.UTF-8):	Config::IniFiles - moduł do odczytu plików konfiguracyjnych typu .ini
 Name:		perl-Config-IniFiles
